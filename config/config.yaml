@@ -1,0 +1,10 @@
+model:
+  device: cpu
+  batch_size: 64
+  learning_rate: 0.01
+  number_of_games: 100
+  winner_reward: 1
+  loser_malus: -1
+  epsilon: 1
+  decremental_epsilon: 0.0001
+  gamma: 0.9
